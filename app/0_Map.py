@@ -187,7 +187,7 @@ else:
 # Render map
 map_html = plot_all_vectors(plots_gdf=plots_gdf, vector1_ext_gdf=amaz_gdf, vector2_ext_gdf=filtered_year_conf_level_radd_gdf, title='Coffe farms & amazonian Colombia & RADD alerts')
 # Display map
-html(map_html, width=1000, height=800)
+html(map_html, width=1500, height=1500)
 
 
 
